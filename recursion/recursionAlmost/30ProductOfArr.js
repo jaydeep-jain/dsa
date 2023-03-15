@@ -8,3 +8,6 @@ function productOfArray(arr){
 }
 
 console.log(productOfArray(arr));
+
+
+

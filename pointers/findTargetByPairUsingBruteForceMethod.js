@@ -2,6 +2,7 @@
 let arr = [5,10,15,25,28 ,30 ,32]
 
 let target = 39
+
 let check = (arr,target)=>{
  let nearest = Number.MAX_VALUE
  let newArr = []

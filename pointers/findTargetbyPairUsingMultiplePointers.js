@@ -5,7 +5,7 @@ let n = 5
 let x = 4
 console.log(ok(arr,n,x))
 function  ok(arr,n,x){
-    arr.sort((a,b)=>a-b) // time complexity O(n log n)
+    arr.sort((a,b)=>a-b) //time complexity O(n log n)
 
     let i = 0
     let j = n-1
@@ -13,10 +13,12 @@ function  ok(arr,n,x){
         if(arr[i]+arr[j]==x){
             return [i,j]
         }
+
         else if(arr[i]+arr[j]<x){
             i++
         }
-        else{
+
+        else {
             j--
         }
     }
@@ -24,4 +26,5 @@ function  ok(arr,n,x){
 }
 
 // so total time complexity is O(n log n)
+
 // and space complexity is O(1)

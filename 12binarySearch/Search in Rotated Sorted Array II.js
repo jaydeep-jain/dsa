@@ -11,7 +11,7 @@ const func = (arr, target) => {
     let high = arr.length -1;
     let mid;
 
-    while(low<= high){
+   while(low<= high){
         
         mid = Math.floor(low+(high-low)/2);
         
@@ -30,7 +30,7 @@ const func = (arr, target) => {
         
         else if(arr[low] < arr[mid] || arr[mid] > arr[high])
         {
-            if(target >= arr[low] && target <= arr[mid])
+            if(target <= arr[mid] && target >= arr[low] )
                 high = mid-1;
             else
              low = mid+1;

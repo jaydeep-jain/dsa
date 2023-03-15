@@ -8,7 +8,7 @@ function same (arr1,arr2){
 
     for(let val of arr1){
         frequencyCounter1[val]= (frequencyCounter1[val] || 0)+1// using bracket notation to put the value if any repeat it will increase frequency of value
-        console.log(frequencyCounter1)
+     //   console.log(frequencyCounter1)
         // console.log(frequencyCounter1[val])
     }
     for(let val of arr2) {
@@ -17,7 +17,7 @@ function same (arr1,arr2){
        // console.log(frequencyCounter2[val])
     } 
     for(let key in frequencyCounter1){
-      //  console.log(key)
+       // console.log (frequencyCounter1[key])
         if(!(key**2 in frequencyCounter2)){
             
             return false
