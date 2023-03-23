@@ -1,45 +1,30 @@
-// let x = "9"
-// let y = Number.isInteger(+x)
-// console.log(y)
+const nums = [1, 1, 1, 2, 2, 3,4,4,4];
+const k = 2;
 
-let arr = [10,11,4,5,7,8,9]
+const highestfreq = function (nums,k){
 
-let target = 4 
+    let map = new Map()
 
-console.log(findTarget(arr,target))
+    nums.forEach(num=>map.set(num,(map.get(num)||0)+1))
+console.log(map)
+let mapEntry = map.entries()
 
-function findTarget(arr,target){
+// let arr =[]
+// for(let arrr of mapEntry){
+//     arr.push(arrr)
+// }
+// console.log(arr)
+// arr.sort((a,b)=>b[1]-a[1])
+// console.log(arr)
 
-    let low = 0
-    let high = arr.length-1
-    let mid 
+let arrMap = Array.from(mapEntry)
+arrMap.sort((a,b)=>b[1]-a[1])
+let result = []
+for(let i = 0;i<k;i++){
+    result.push(arrMap[i][0])
+}
 
-    while (low <= high){
-        
-        mid = Math.floor(low + (high-low)/2) 
-
-        if(arr[mid]===target) return mid
-
-
-        
-     else if(arr[low]>arr[mid]||arr[high]>arr[mid]){
-//[10,11,4,5,7,8,9]
-        if(target>=arr[mid]&& target<=arr[high]){
-            low = mid+1
-        }
-        else{
-            high = mid-1
-        }
-    }
-
-    else if(arr[mid]>arr[low] || arr[mid]>arr[high]){
-        
-    }
-
-else{
-    low++
+console.log(result)
 
 }
-    }
-    return false
-}
+console.log(highestfreq(nums,k))

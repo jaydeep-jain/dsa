@@ -26,3 +26,7 @@ var isPalindrome = function (s){
     return isPal(newstr)
 }
 console.log(isPalindrome("madam%$#"))
+
+
+
+

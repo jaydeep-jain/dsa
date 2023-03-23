@@ -19,8 +19,3 @@ function topKFrequent(nums, k) {
   const k = 2;
   console.log(topKFrequent(nums, k)); // Output: [1, 2]
   
-
-
-
-
-

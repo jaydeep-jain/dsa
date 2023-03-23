@@ -4,7 +4,6 @@ let n = arr.length //5
 let k = 2 // sliding in pair of 2 index
 
 console.log(multiWindow(arr,k,n))
-
 function multiWindow(arr,k,n){
    let currMulti = 1
    let maxMulti = 1 
@@ -22,3 +21,5 @@ function multiWindow(arr,k,n){
    }
    return maxMulti
 }
+
+

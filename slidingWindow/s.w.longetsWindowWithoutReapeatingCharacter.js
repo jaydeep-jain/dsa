@@ -17,3 +17,21 @@ var lengthOfLongestSubstring = function(s){
     return ans
 }
 console.log(lengthOfLongestSubstring(s));
+
+// var lengthOfLongestSubstring = function (s) {
+//     var max=0,
+//         theSub=''
+//     for(var i=0;i<s.length;i++){
+//         const idx=theSub.indexOf(s[i])
+//         theSub+=s[i]
+//         if(idx>=0){  
+//          theSub= theSub.slice(idx+1) 
+//         }
+//         if(theSub.length>max){
+//             max=theSub.length
+//         }
+//     }
+//     return max
+// }
+	
+

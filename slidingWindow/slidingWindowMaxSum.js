@@ -10,6 +10,7 @@ function window(k,arr,n){
 for(let i = 0 ;i<k;i++){
 
 currsum += arr[i]
+
 }
 
 maxsum = currsum
