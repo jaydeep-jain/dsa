@@ -1,4 +1,4 @@
-let arr = [6,3,8,5,9,4]
+let arr = [1,2,4,3]
 
 function bubbleSort(arr){
     let swapping = false
@@ -10,9 +10,10 @@ function bubbleSort(arr){
                 arr[j] = arr[j+1]
                 arr[j+1] = temp
             }
+            
+            }
             if(swapping== false){
                 break
-            }
             
         }
     } 
