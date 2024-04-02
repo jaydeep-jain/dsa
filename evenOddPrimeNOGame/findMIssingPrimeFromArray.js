@@ -9,6 +9,7 @@ const arr1 = [2, 3, 7, 11, 13, 17, 19, 23, 29];
     }
     return n>1
 }
+
 function nextPrimeNo(arr){
     let min = Math.min(...arr)
     let max = Math.max(...arr)

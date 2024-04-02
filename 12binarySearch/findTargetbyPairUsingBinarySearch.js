@@ -33,11 +33,3 @@ const func = (arr, target) => {
     return false
 }
 console.log(func(arr, target));
-
-
-
-
-
-
-
-

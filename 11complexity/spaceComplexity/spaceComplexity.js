@@ -1,6 +1,6 @@
 // space complexity --
 
-// the space complexity of an algorithm or a computer program is the amount of memory space required to solve an instance of the computational problem as a function of characteristics of the input .
+//the space complexity of an algorithm or a computer program is the amount of memory space required to solve an instance of the computational problem as a function of characteristics of the input.
 
 // the amount of momory space required to solve an instance of the computational problem 
 

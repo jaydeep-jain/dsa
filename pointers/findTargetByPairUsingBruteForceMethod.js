@@ -1,4 +1,5 @@
 // this is the brute force method 
+
 let arr = [5,10,15,25,28 ,30 ,32]
 
 let target = 39

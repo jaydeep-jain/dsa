@@ -10,8 +10,8 @@
 // S.C --> O(n)
 
 // -----> example(2)
-let n = 7
-let sum = n*(n+1)/2
-console.log(sum) 
+// let n = 7
+// let sum = n*(n+1)/2
+// console.log(sum) 
 // S.C --> O(1)
 

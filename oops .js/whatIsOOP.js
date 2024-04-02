@@ -37,7 +37,7 @@ class Bike extends Vehicle{
 class Truck extends Vehicle{
 
     constructor(name, companyName, type, ){
-            super(name, companyName);
+            super(name, companyName,type);
             this.backGear = true;
             this.kickStart = false;
     }

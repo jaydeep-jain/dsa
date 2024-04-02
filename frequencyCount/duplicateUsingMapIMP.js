@@ -11,6 +11,7 @@ function duplicate(arr){
 
     }
    // console.log(frequencies)
+   // console.log(frequencies)
     let res = []
     for(let pairs of frequencies){
         console.log(pairs)
